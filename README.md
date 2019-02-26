@@ -1,2 +1,3 @@
-# timeline
-Timeline Project
+# Welcome to the Timeline Project :sparkles:
+
+Coming soon...

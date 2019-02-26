@@ -1,0 +1,62 @@
+$developer: slateblue;
+$designer: #ffcc00;
+
+
+
+
+
+
+.avatar-wall {
+    position: fixed;
+    left: 3%;
+    top: 25%;
+    z-index: 20;
+    text-align: center;
+}
+
+.avatar-title-web {
+    font-size: 1vw;
+    color: $developer;
+    border: 1px solid $developer;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.avatar-title-design {
+    font-size: 1vw;
+    color: $designer;
+    border: 1px solid $designer;
+    padding: 0.5em;
+    border-radius: 10px;
+    margin-top: 50%;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 4vw;
+    cursor: pointer;
+}
+
+.avatar-small-r {
+    border-radius: 50%;
+    width: 1.7vw;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.15), 0 0 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    right: 2%;
+}
+
+.avatar-small-l {
+    border-radius: 50%;
+    width: 1.7vw;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.15), 0 0 4px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 4%;
+}
+
+.r-first {
+   right: 12%;
+}
+
+.r-second {
+   right: 2%;
+}

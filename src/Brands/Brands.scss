@@ -1,0 +1,68 @@
+$structure: #6B5B95;
+$code: #FE840E;
+$functionality: #9E1030;
+$design: #00539C;
+
+
+
+.brand-text-violet {
+    color: $structure;
+}
+
+.brand-violet {
+    background-color: $structure;
+}
+
+.brand-text-amber {
+    color: $code;
+}
+
+.brand-amber {
+    background-color: $code;
+    border: 0;
+}
+
+.brand-text-dark-red {
+    color: $functionality;
+}
+
+.brand-dark-red {
+    background-color: $functionality;
+}
+
+.brand-text-blue {
+    color: $design;
+}
+
+.brand-blue {
+    background-color: $design;
+}
+
+
+.brands-wall {
+    position: fixed;
+    right: 3%;
+    top: 25%;
+    z-index: 20;
+    text-align: center;
+    display: inline-block;
+}
+
+.brands-title {
+    font-size: 1vw;
+    color: #343148;
+    border: 1px solid #423e5b;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.brand-circle {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 1vh;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), 0 0 2px rgba(0, 0, 0, 0.25);
+}
